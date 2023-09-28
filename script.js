@@ -44,7 +44,7 @@ algoritmo1c(prompt('Inserta una frase:'), prompt('Inserta una letra para comprob
 
 let siguientesNums = 50;  //Defino la variable fuera de la funcion para poder acceder a ella en el prompt, aunque realmente no haría falta pues no es un valor que vayamos a modificar
 function algoritmo2(num) {
-    for (let i = 0; i < siguientesNums; i++) {
+    for (let i = 0; i <= siguientesNums; i++) {
         if (num % 2 !== 0) {
             console.log(num);
         }
@@ -55,7 +55,7 @@ algoritmo2(Number(prompt(`Inserta un número. Te devolveré los números impares
 
 ///////Ejercicio2b: usando bucle while
 function algoritmo2b(num) {
-    let i = 1;
+    let i = 0;
     while (i <= 50) {
         if (num % 2 !== 0) {
             console.log(num);
