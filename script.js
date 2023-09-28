@@ -58,7 +58,7 @@ function algoritmo2b(num) {
     let i = 0;
     while (i <= 50) {
         if (num % 2 !== 0) {
-            console.log(num);gi
+            console.log(num);
         }
         num++;
         i++;
